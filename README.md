@@ -4,10 +4,14 @@
 　　百度地图JavaScript开源库秉着与大家一起学习交流的态度，全部开源。您可以参考开发文档，直接调用现有的开源库，实现您的需求；或者下载每个类的源文件，自行修改再使用。源文件里具有详尽的注释，可以帮助您更好的理解。<br/>
 　　如果您对百度地图JavaScript开源库的意见和建议，请[发送邮件](http://developer.baidu.com/map/index.php?title=open/help_index)。<br/>
 　　此外，欢迎广大的开发爱好者，基于百度地图API，提供你们制作的JavaScript library库。我们也会放在这里供其他爱好者学习、交流。<br/><br/>
+　　
 热力图
 ---------
-![Image of Heatmap](http://developer.baidu.com/map/skins/MySkin/resources/img/heatmap.png)<br/>
+![Image of Heatmap](http://developer.baidu.com/map/skins/MySkin/resources/img/heatmap.png  =100x20)<br/>
 　　提供热力图可视化展现功能，注: 支持chrome, safari, IE9及以上的浏览器. 核心的代码主要来自于第三方heatmap.js, 主入口类是HeatmapOverlay， 基于Baidu Map API 2.0。<br/>
 - [热力图示例](http://dandandancj.github.io/BMap-JavaScript-library/demo/Heatmap/Heatmap.html)
 - [源码](http://dandandancj.github.io/BMap-JavaScript-library/src/Heatmap/Heatmap.js) [压缩源码](http://dandandancj.github.io/BMap-JavaScript-library/src/Heatmap/Heatmap_min.js)
-- [类参考]()
+- [类参考]() <br/>
+
+绘制弧线类
+---------
