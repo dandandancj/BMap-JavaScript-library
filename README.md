@@ -13,7 +13,7 @@
 <img src='https://raw.githubusercontent.com/dandandancj/BMap-JavaScript-library/master/images/Heatmap.png' width='250' />
 </td>
 <td width = '600'>
-　　提供热力图可视化展现功能，注: 支持chrome, safari, IE9及以上的浏览器.核心的代码主要来自于第三方heatmap.js, 主入口类是HeatmapOverlay。<br/><br/>　　　　　　　　　　　　
+　　提供热力图可视化展现功能，注: 支持chrome, safari, IE9及以上的浏览器.核心的代码主要来自于第三方heatmap.js, 主入口类是HeatmapOverlay。<br/><br/>　　　　　　　　　　　　　　
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/Heatmap/Heatmap.html'>热力图示例</a>　　
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/Heatmap/Heatmap.js'>源码</a>　　
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/Heatmap/Heatmap.min.js'>压缩源码</a>　　
@@ -29,7 +29,7 @@
 <img src='https://raw.githubusercontent.com/dandandancj/BMap-JavaScript-library/master/images/CurveLine.png' width='250' />
 </td>
 <td width = '600'>
-　　提供绘制弧线功能的开源代码库，且用户可通过编辑功能（如开启拖拽起终点、线的宽度与颜色）绘制所需的弧线样式。<br/><br/>　　　　　　　　　　　　
+　　提供绘制弧线功能的开源代码库，且用户可通过编辑功能（如开启拖拽起终点、线的宽度与颜色）绘制所需的弧线样式。<br/><br/>　　　　　　　　　　　　　
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/CurveLine/CurveLine.html'>弧线绘制示例</a>　　
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/CurveLine/CurveLine.js'>源码</a>　　
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/CurveLine/CurveLine.min.js'>压缩源码</a>　　
