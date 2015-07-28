@@ -61,7 +61,7 @@
 <img src='https://raw.githubusercontent.com/dandandancj/BMap-JavaScript-library/master/images/InfoBox.png' width='250' />
 </td>
 <td width = '600'>
-　　百度地图的infoBox。类似于infoWindow，比infoWindow更有灵活性，比如可以定制border，关闭按钮样式等。<br/><br/>　　
+　　百度地图的infoBox。类似于infoWindow，比infoWindow更有灵活性，比如可以定制border，关闭按钮样式等。<br/><br/>　
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/InfoBox/InfoBox_Top.html'>在顶部打开InfoBox</a>　
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/InfoBox/InfoBox_Bottom.html'>在底部打开InfoBox</a>　　
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/InfoBox/InfoBox.js'>源码</a>　　
@@ -148,6 +148,93 @@
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/MarkerClusterer/MarkerClusterer.html'>Marker聚合示例</a>　　
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/MarkerClusterer/MarkerClusterer.js'>源码</a>　　
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/MarkerClusterer/MarkerClusterer.min.js'>压缩源码</a>　　
+<a href = '#'>类参考</a>
+</td>
+</table>
+
+
+添加标注工具
+---------
+<table>
+<tr>
+<td width='250'>
+<img src='https://raw.githubusercontent.com/dandandancj/BMap-JavaScript-library/master/images/MarkerTool.png' width='250' />
+</td>
+<td width = '600'>
+　　百度地图的添加标注工具类，对外开放。 允许用户在地图上点击后添加一个点标注，允许用户设定标注的图标样式。<br/><br/>　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/MarkerTool/MarkerTool_Simple.html'>普通连续添加示例</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/MarkerTool/MarkerTool_Advance.html'>自定义样式示例</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/MarkerTool/MarkerTool.js'>源码</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/MarkerTool/MarkerTool.min.js'>压缩源码</a>　　
+<a href = '#'>类参考</a>
+</td>
+</table>
+
+
+自定义覆盖物
+---------
+<table>
+<tr>
+<td width='250'>
+<img src='https://raw.githubusercontent.com/dandandancj/BMap-JavaScript-library/master/images/TextIconOverlay.png' width='250' />
+</td>
+<td width = '600'>
+　　此类表示地图上的一个覆盖物，该覆盖物由文字和图标组成，从Overlay继承。<br/><br/>
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/TextIconOverlay/TextIconOverlay.html'>自定义覆盖物示例1</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/TextIconOverlay/TextIconOverlay_Advanced.html'>自定义覆盖物示例2</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/TextIconOverlay/TextIconOverlay.js'>源码</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/TextIconOverlay/TextIconOverlay.min.js'>压缩源码</a>　　
+<a href = '#'>类参考</a>
+</td>
+</table>
+
+
+拉框放大工具
+---------
+<table>
+<tr>
+<td width='250'>
+<img src='https://raw.githubusercontent.com/dandandancj/BMap-JavaScript-library/master/images/RectangleZoom.png' width='250' />
+</td>
+<td width = '600'>
+　　百度地图的拉框缩放类，对外开放。 允许用户在地图上执行拉框放大或者缩小操作， 使用者可以自定义缩放时的动画、遮盖层的样式等效果。<br/><br/>　　　　　　　　　　　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/RectangleZoom/RectangleZoom.html'>拉框缩放示例</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/RectangleZoom/RectangleZoom.js'>源码</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/RectangleZoom/RectangleZoom.min.js'>压缩源码</a>　　
+<a href = '#'>类参考</a>
+</td>
+</table>
+
+
+区域限制
+---------
+<table>
+<tr>
+<td width='250'>
+<img src='https://raw.githubusercontent.com/dandandancj/BMap-JavaScript-library/master/images/AreaRestriction.png' width='250' />
+</td>
+<td width = '600'>
+　　百度地图浏览区域限制类，对外开放。 允许开发者输入限定浏览的地图区域的Bounds值， 则地图浏览者只能在限定区域内浏览地图。<br/><br/>　　　　　　　　　　　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/AreaRestriction/AreaRestriction.html'>区域限制示例</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/AreaRestriction/AreaRestriction.js'>源码</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/AreaRestriction/AreaRestriction.min.js'>压缩源码</a>　　
+<a href = '#'>类参考</a>
+</td>
+</table>
+
+
+几何运算
+---------
+<table>
+<tr>
+<td width='250'>
+<img src='https://raw.githubusercontent.com/dandandancj/BMap-JavaScript-library/master/images/GeoUtils.png' width='250' />
+</td>
+<td width = '600'>
+　　GeoUtils类提供若干几何算法，用来帮助用户判断点与矩形、 圆形、多边形线、多边形面的关系,并提供计算折线长度和多边形的面积的公式。 <br/><br/>　　　　　　　　　　　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/GeoUtils/GeoUtils.html'>几何运算示例</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/GeoUtils/GeoUtils.js'>源码</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/GeoUtils/GeoUtils.min.js'>压缩源码</a>　　
 <a href = '#'>类参考</a>
 </td>
 </table>
