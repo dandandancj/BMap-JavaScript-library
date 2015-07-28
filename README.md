@@ -45,7 +45,7 @@
 <img src='https://raw.githubusercontent.com/dandandancj/BMap-JavaScript-library/master/images/DrawingManager.png' width='250' />
 </td>
 <td>
-　　提供鼠标绘制点、线、面、多边形（矩形、圆）的编辑工具条的开源代码库。且用户可使用JavaScript API对应覆盖物（点、线、面等）类接口对其进行属性（如颜色、线宽等）设置、编辑（如开启线顶点编辑等）等功能。<br/><br/>　　　　　　　　　　　　
+　　提供鼠标绘制点、线、面、多边形（矩形、圆）的编辑工具条的开源代码库。且用户可使用JavaScript API对应覆盖物（点、线、面等）类接口对其进行属性（如颜色、线宽等）设置、编辑（如开启线顶点编辑等）等功能。<br/><br/>　　　　　　　　　　
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/DrawingManager/DrawingManager.html'>鼠标绘制覆盖物示例</a>　　
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/DrawingManager/DrawingManager.js'>源码</a>　　
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/DrawingManager/DrawingManager.min.js'>压缩源码</a>　　
@@ -61,7 +61,7 @@
 <img src='https://raw.githubusercontent.com/dandandancj/BMap-JavaScript-library/master/images/InfoBox.png' width='250' />
 </td>
 <td>
-　　百度地图的infoBox。类似于infoWindow，比infoWindow更有灵活性，比如可以定制border，关闭按钮样式等。<br/><br/>　　　　　　　　　　　　
+　　百度地图的infoBox。类似于infoWindow，比infoWindow更有灵活性，比如可以定制border，关闭按钮样式等。<br/><br/>　　
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/InfoBox/InfoBox_Top.html'>在顶部打开InfoBox</a>
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/InfoBox/InfoBox_Bottom.html'>在底部打开InfoBox</a>　　
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/InfoBox/InfoBox.js'>源码</a>　　
@@ -94,7 +94,7 @@
 <img src='https://raw.githubusercontent.com/dandandancj/BMap-JavaScript-library/master/images/RichMarker.png' width='250' />
 </td>
 <td>
-　　百度地图的富Marker类，对外开放。 允许用户在自定义丰富的Marker展现，并添加点击、双击、拖拽等事件。<br/><br/>　　　　　　　　　　　　
+　　百度地图的富Marker类，对外开放。 允许用户在自定义丰富的Marker展现，并添加点击、双击、拖拽等事件。<br/><br/>　　　　
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/RichMarker/RichMarker.html'>富标注示例</a>　　
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/RichMarker/RichMarker_Advanced.html'>高级富标注示例</a>　　
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/RichMarker/RichMarker.js'>源码</a>　　
@@ -111,7 +111,7 @@
 <img src='https://raw.githubusercontent.com/dandandancj/BMap-JavaScript-library/master/images/LuShu.png' width='250' />
 </td>
 <td>
-　　百度地图的路书。实现marker沿路线运动，并有暂停等功能。<br/><br/>　　　　　　　　　　　　
+　　百度地图的路书。实现marker沿路线运动，并有暂停等功能。<br/><br/>　　　　
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/LuShu/LuShu.html'>路书示例</a>　　
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/LuShu/LuShu_CustomIcon.html'>自定义图标路书示例</a>　　
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/LuShu/LuShu.js'>源码</a>　　
