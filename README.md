@@ -26,13 +26,128 @@
 <table>
 <tr>
 <td width='250'>
-<img src='https://raw.githubusercontent.com/dandandancj/BMap-JavaScript-library/master/images/Heatmap.png' width='250' />
+<img src='https://raw.githubusercontent.com/dandandancj/BMap-JavaScript-library/master/images/CurveLine.png' width='250' />
 </td>
 <td>
 　　提供绘制弧线功能的开源代码库，且用户可通过编辑功能（如开启拖拽起终点、线的宽度与颜色）绘制所需的弧线样式。<br/><br/>　　　　　　　　　　　　
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/CurveLine/CurveLine.html'>弧线绘制示例</a>　　
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/CurveLine/CurveLine.js'>源码</a>　　
 <a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/CurveLine/CurveLine.min.js'>压缩源码</a>　　
+<a href = '#'>类参考</a>
+</td>
+</table>
+
+鼠标绘制工具条库
+---------
+<table>
+<tr>
+<td width='250'>
+<img src='https://raw.githubusercontent.com/dandandancj/BMap-JavaScript-library/master/images/DrawingManager.png' width='250' />
+</td>
+<td>
+　　提供鼠标绘制点、线、面、多边形（矩形、圆）的编辑工具条的开源代码库。且用户可使用JavaScript API对应覆盖物（点、线、面等）类接口对其进行属性（如颜色、线宽等）设置、编辑（如开启线顶点编辑等）等功能。<br/><br/>　　　　　　　　　　　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/DrawingManager/DrawingManager.html'>鼠标绘制覆盖物示例</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/DrawingManager/DrawingManager.js'>源码</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/DrawingManager/DrawingManager.min.js'>压缩源码</a>　　
+<a href = '#'>类参考</a>
+</td>
+</table>
+
+自定义信息窗口
+---------
+<table>
+<tr>
+<td width='250'>
+<img src='https://raw.githubusercontent.com/dandandancj/BMap-JavaScript-library/master/images/InfoBox.png' width='250' />
+</td>
+<td>
+　　百度地图的infoBox。类似于infoWindow，比infoWindow更有灵活性，比如可以定制border，关闭按钮样式等。<br/><br/>　　　　　　　　　　　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/InfoBox/InfoBox_Top.html'>在顶部打开InfoBox</a>
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/InfoBox/InfoBox_Bottom.html'>在底部打开InfoBox</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/InfoBox/InfoBox.js'>源码</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/InfoBox/InfoBox.min.js'>压缩源码</a>　　
+<a href = '#'>类参考</a>
+</td>
+</table>
+
+标注管理器
+---------
+<table>
+<tr>
+<td width='250'>
+<img src='https://raw.githubusercontent.com/dandandancj/BMap-JavaScript-library/master/images/MarkerManager.png' width='250' />
+</td>
+<td>
+　　百度地图的标注管理器。多marker的管理，更高效、解析更快。<br/><br/>　　　　　　　　　　　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/MarkerManager/MarkerManager.html'>标注管理示例</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/MarkerManager/MarkerManager.js'>源码</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/MarkerManager/MarkerManager.min.js'>压缩源码</a>　　
+<a href = '#'>类参考</a>
+</td>
+</table>
+
+富标注
+---------
+<table>
+<tr>
+<td width='250'>
+<img src='https://raw.githubusercontent.com/dandandancj/BMap-JavaScript-library/master/images/RichMarker.png' width='250' />
+</td>
+<td>
+　　百度地图的富Marker类，对外开放。 允许用户在自定义丰富的Marker展现，并添加点击、双击、拖拽等事件。<br/><br/>　　　　　　　　　　　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/RichMarker/RichMarker.html'>富标注示例</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/RichMarker/RichMarker_Advanced.html'>高级富标注示例</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/RichMarker/RichMarker.js'>源码</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/RichMarker/RichMarker.min.js'>压缩源码</a>　　
+<a href = '#'>类参考</a>
+</td>
+</table>
+
+路书
+---------
+<table>
+<tr>
+<td width='250'>
+<img src='https://raw.githubusercontent.com/dandandancj/BMap-JavaScript-library/master/images/LuShu.png' width='250' />
+</td>
+<td>
+　　百度地图的路书。实现marker沿路线运动，并有暂停等功能。<br/><br/>　　　　　　　　　　　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/LuShu/LuShu.html'>路书示例</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/LuShu/LuShu_CustomIcon.html'>自定义图标路书示例</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/LuShu/LuShu.js'>源码</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/LuShu/LuShu.min.js'>压缩源码</a>　　
+<a href = '#'>类参考</a>
+</td>
+</table>
+
+测距工具
+---------
+<table>
+<tr>
+<td width='250'>
+<img src='https://raw.githubusercontent.com/dandandancj/BMap-JavaScript-library/master/images/DistanceTool.png' width='250' />
+</td>
+<td>
+　　百度地图的测距工具类，对外开放。 允许用户在地图上点击完成距离的测量。 使用者可以自定义测距线段的相关样式，例如线宽、颜色、测距结果所用的单位制等等。 <br/><br/>　　　　　　　　　　　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/DistanceTool/DistanceTool.html'>测距工具示例</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/DistanceTool/DistanceTool.js'>源码</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/DistanceTool/DistanceTool.min.js'>压缩源码</a>　　
+<a href = '#'>类参考</a>
+</td>
+</table>
+
+聚合marker
+---------
+<table>
+<tr>
+<td width='250'>
+<img src='https://raw.githubusercontent.com/dandandancj/BMap-JavaScript-library/master/images/MarkerClusterer.png' width='250' />
+</td>
+<td>
+　　MarkerClusterer标记聚合器用来解决加载大量点要素到地图上产生覆盖现象的问题，并提高性能。 主入口类是MarkerClusterer。<br/><br/>　　　　　　　　　　　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/demo/MarkerClusterer/MarkerClusterer.html'>Marker聚合示例</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/MarkerClusterer/MarkerClusterer.js'>源码</a>　　
+<a href = 'http://dandandancj.github.io/BMap-JavaScript-library/src/MarkerClusterer/MarkerClusterer.min.js'>压缩源码</a>　　
 <a href = '#'>类参考</a>
 </td>
 </table>
