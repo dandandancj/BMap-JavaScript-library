@@ -44,6 +44,14 @@
       section{
         padding-top: 35px;
       }
+      .affix-bottom {
+        bottom: 0px;
+        position:fixed;
+      }
+      .affix-top {
+        top: 60px;
+        position:absolute;
+      }
     </style>
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
   </head>
@@ -79,89 +87,6 @@
           </div>
         </div>
         <div class="span9" id="mainContent">
-<!--           <section>
-          <h1>BMapLib.HeatmapOverlay</h1>
-          <hr/>
-          <p>热力图的覆盖物 实例化该类后，使用map.addOverlay即可以添加热力图</p>
-          <table class="table table-hover table-bordered">
-            <tr class="info">
-              <td class="cla">类</td>
-              <td>描述</td>
-            </tr>
-            <tr>
-              <td>BMapLib.HeatmapOverlay(opts)</td>
-              <td>热力图的覆盖物</td>
-            </tr>
-          </table>
-          <table class="table table-hover table-bordered">
-            <tr class="success">
-              <td class="func">方法</td>
-              <td class="ret">返回值</td>
-              <td>描述</td>
-            </tr>
-            <tr>
-              <td>addDataPoint(lng, lat, count)</td>
-              <td>无</td>
-              <td>添加热力图的详细坐标点</td>
-            </tr>
-             <tr>
-              <td>setDataSet(data)</td>
-              <td>无</td>
-              <td>设置热力图展现的详细数据, 实现之后,即可以立刻展现</td>
-            </tr>
-            <tr>
-              <td>setOptions(options)</td>
-              <td>无</td>
-              <td>设置热力图展现的配置</td>
-            </tr>
-            <tr>
-              <td>toggle()</td>
-              <td>无</td>
-              <td>更改热力图的展现或者关闭</td>
-            </tr>
-          </table>
-          <h4>参考示例</h4>
-          <pre class="prettyprint linenums">
-var map = new BMap.Map("container");
-map.centerAndZoom(new BMap.Point(116.404, 39.915), 15);
-var heatmapOverlay = new BMapLib.HeatmapOverlay({"radius":10, "visible":true, "opacity":70});
-heatmapOverlay.setDataSet(data);//data是热力图的详细数据
-/*参数:
- *{Json Object} opts
- *可选的输入参数，非必填项。可输入选项包括：
- *{"radius" : {String} 热力图的半径,
- *"visible" : {Number} 热力图是否显示 
- *"gradient" : {JSON} 热力图的渐变区间 
- *"opacity" : {Number} 热力的透明度
- */</pre>
-            <h4>方法详述</h4>
-            <pre class="prettyprint linenums">
-/* 添加热力图的详细坐标点
- * @param {Number} lng 经度坐标
- * @param {Number} lat 纬度坐标
- * @param {Number} count 权重
- */
-addDataPoint(lng, lat, count);
-
-/* 设置热力图展现的详细数据, 实现之后,即可以立刻展现
- * @param {Json Object} data 经度坐标
- * {"max" : {Number} 权重的最大值, 
- * "data" : {Array} 坐标详细数据,格式如下 
- * {"lng":116.421969,"lat":39.913527,"count":3}, 其中
- * lng lat分别为经纬度, count权重值
- */
-setDataSet(data);
-
-/* 设置热力图展现的配置
- * 
- * @param {Json Object} options 可选的输入参数，非必填项。可输入选项包括：
- * {"radius" : {String} 热力图的半径, 
- * "visible" : {Number} 热力图是否显示, 
- * "gradient" : {JSON} 热力图的渐变区间, 
- * "opacity" : {Number} 热力的透明度,}
- */
-setOptions(options);</pre>
-          </section> -->
         </div>
       </div>
     </div> <!-- /container -->
